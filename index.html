@@ -1,0 +1,2588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlanta Metro Porta Potty Reviews | Best Portable Restroom Rentals</title>
+    <meta name="description" content="Find the best porta potty rental companies in Atlanta Metro. Read reviews, compare prices, and book portable restrooms for your event or construction site.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f7fa;
+        }
+
+        /* Header */
+        header {
+            background-color: #1a3a6b;
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: #dc143c;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #dc143c;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #2c5aa0 0%, #1a3a6b 100%);
+            color: white;
+            padding: 4rem 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Search Bar */
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 20px;
+        }
+
+        /* City Grid */
+        .cities-section {
+            margin-bottom: 4rem;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #1a3a6b;
+            text-align: center;
+        }
+
+        .cities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .city-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .city-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+
+        .city-card h3 {
+            color: #1a3a6b;
+            margin-bottom: 0.5rem;
+        }
+
+        .city-card .company-count {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        /* Companies List */
+        .companies-list {
+            display: none;
+        }
+
+        .companies-list.active {
+            display: block;
+        }
+
+        .company-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .company-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .company-info h3 {
+            color: #1a3a6b;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .rating {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .stars {
+            color: #ffa500;
+            font-size: 1.2rem;
+        }
+
+        .review-count {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .company-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+
+        .detail-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .detail-item strong {
+            color: #1a3a6b;
+        }
+
+        .services {
+            margin: 1rem 0;
+        }
+
+        .services h4 {
+            color: #1a3a6b;
+            margin-bottom: 0.5rem;
+        }
+
+        .service-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .service-tag {
+            background: #e8f0fe;
+            color: #2c5aa0;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .reviews-section {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .review {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .reviewer-name {
+            font-weight: bold;
+            color: #1a3a6b;
+        }
+
+        .review-date {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .review-text {
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Pros and Cons Section */
+        .pros-cons-section {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e0e0e0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .pros-box, .cons-box {
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .pros-box {
+            background: #f0f9f4;
+            border-left: 4px solid #28a745;
+        }
+
+        .cons-box {
+            background: #fef5f5;
+            border-left: 4px solid #dc3545;
+        }
+
+        .pros-box h4, .cons-box h4 {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .pros-box h4 {
+            color: #28a745;
+        }
+
+        .cons-box h4 {
+            color: #dc3545;
+        }
+
+        .pros-list, .cons-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .pros-list li, .cons-list li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .pros-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .cons-list li:before {
+            content: "✗";
+            position: absolute;
+            left: 0;
+            color: #dc3545;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .pros-cons-section {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .contact-btn {
+            background-color: #dc143c;
+            color: white;
+            border: none;
+            padding: 0.8rem 2rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .contact-btn:hover {
+            background-color: #b01030;
+        }
+
+        .quote-btn {
+            background-color: #28a745;
+        }
+
+        .quote-btn:hover {
+            background-color: #218838;
+        }
+
+        .back-btn {
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            padding: 0.8rem 2rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-bottom: 2rem;
+        }
+
+        .back-btn:hover {
+            background-color: #5a6268;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a3a6b;
+            color: white;
+            padding: 3rem 20px 1rem;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #2c5aa0;
+            color: #ccc;
+        }
+
+        .admin-link {
+            color: #1a3a6b;
+            font-size: 0.7rem;
+            text-decoration: none;
+            opacity: 0.3;
+        }
+
+        /* Admin Panel Styles */
+        .admin-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 1000;
+            overflow-y: auto;
+        }
+
+        .admin-modal.active {
+            display: block;
+        }
+
+        .admin-content {
+            max-width: 1400px;
+            margin: 2rem auto;
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+        }
+
+        .admin-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #1a3a6b;
+        }
+
+        .admin-header h2 {
+            color: #1a3a6b;
+        }
+
+        .close-admin {
+            background: #dc143c;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .close-admin:hover {
+            background: #b01030;
+        }
+
+        .admin-tabs {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .admin-tab {
+            padding: 0.8rem 1.5rem;
+            background: none;
+            border: none;
+            border-bottom: 3px solid transparent;
+            cursor: pointer;
+            font-size: 1rem;
+            color: #666;
+            transition: all 0.3s;
+        }
+
+        .admin-tab.active {
+            color: #1a3a6b;
+            border-bottom-color: #2c5aa0;
+            font-weight: bold;
+        }
+
+        .admin-tab:hover {
+            color: #2c5aa0;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .company-list {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .admin-company-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #2c5aa0;
+        }
+
+        .admin-company-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .admin-company-header h4 {
+            color: #1a3a6b;
+            font-size: 1.2rem;
+        }
+
+        .admin-btn-group {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .edit-btn, .delete-btn, .add-btn, .save-btn, .cancel-btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+        }
+
+        .edit-btn {
+            background: #2c5aa0;
+            color: white;
+        }
+
+        .edit-btn:hover {
+            background: #1a3a6b;
+        }
+
+        .delete-btn {
+            background: #dc143c;
+            color: white;
+        }
+
+        .delete-btn:hover {
+            background: #b01030;
+        }
+
+        .add-btn {
+            background: #28a745;
+            color: white;
+            margin-bottom: 1rem;
+            padding: 0.8rem 2rem;
+        }
+
+        .add-btn:hover {
+            background: #218838;
+        }
+
+        .save-btn {
+            background: #28a745;
+            color: white;
+        }
+
+        .save-btn:hover {
+            background: #218838;
+        }
+
+        .cancel-btn {
+            background: #6c757d;
+            color: white;
+        }
+
+        .cancel-btn:hover {
+            background: #5a6268;
+        }
+
+        /* Form Styles */
+        .edit-form {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+            border: 2px solid #2c5aa0;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #1a3a6b;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.8rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+
+        .form-group textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #2c5aa0;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .review-form-section {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+
+        .review-item {
+            background: white;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .remove-review-btn {
+            background: #dc143c;
+            color: white;
+            border: none;
+            padding: 0.3rem 0.8rem;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+        }
+
+        .add-review-btn {
+            background: #2c5aa0;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Pros/Cons Form Section */
+        .pros-cons-form-section {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 2px solid #e0e0e0;
+        }
+
+        .pros-cons-item {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+            align-items: center;
+        }
+
+        .pros-cons-item input {
+            flex: 1;
+            padding: 0.5rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+
+        .remove-item-btn {
+            background: #dc143c;
+            color: white;
+            border: none;
+            padding: 0.5rem 0.8rem;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .add-item-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Login Form */
+        .login-form {
+            max-width: 400px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .login-form h3 {
+            color: #1a3a6b;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .login-btn {
+            width: 100%;
+            background: #2c5aa0;
+            color: white;
+            border: none;
+            padding: 0.8rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .login-btn:hover {
+            background: #1a3a6b;
+        }
+
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 0.8rem;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 0.8rem;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+
+        /* Loading Spinner */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #2c5aa0;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .search-inputs {
+                flex-direction: column;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .company-header {
+                flex-direction: column;
+            }
+
+            .admin-content {
+                margin: 0.5rem;
+                padding: 1rem;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="#" class="logo">Atlanta Metro <span>Porta Potty Reviews</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#cities">Cities</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Find the Best Porta Potty Rentals in Atlanta Metro</h1>
+        <p>Compare top-rated portable restroom companies in your area</p>
+    </section>
+
+    <div class="container">
+        <!-- Cities Grid -->
+        <section id="cities" class="cities-section">
+            <h2 class="section-title">Browse by City</h2>
+            <div class="cities-grid" id="citiesGrid">
+                <!-- Cities will be dynamically loaded -->
+            </div>
+        </section>
+
+        <!-- Company Lists (dynamically generated) -->
+        <div id="companiesContainer"></div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Atlanta Metro Porta Potty Reviews helps you find the best portable restroom rentals for your event or construction site.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#cities">Browse Cities</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Popular Cities</h3>
+                <ul id="footerCities">
+                    <!-- Will be populated dynamically -->
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Atlanta Metro Porta Potty Reviews<br>(678) 456-3488<br><a href="/cdn-cgi/l/email-protection#f0999e969fb091849c9d9584829f8080de939f9d"><span class="__cf_email__" data-cfemail="1e777078715e7f6a72737b6a6c716e6e307d7173">[email&#160;protected]</span></a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Atlanta Metro Porta Potty Reviews. All rights reserved.</p>
+            <a href="#" class="admin-link" onclick="openAdmin(); return false;">•</a>
+        </div>
+    </footer>
+
+    <!-- Admin Panel Modal -->
+    <div id="adminModal" class="admin-modal">
+        <div class="admin-content">
+            <div id="loginSection" class="login-form">
+                <h3>Admin Login</h3>
+                <div id="loginError" class="error-message" style="display: none;"></div>
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" id="adminUsername" placeholder="Enter username">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="adminPassword" placeholder="Enter password">
+                </div>
+                <button class="login-btn" onclick="adminLogin()">Login</button>
+                <button class="cancel-btn" onclick="closeAdmin()" style="width: 100%; margin-top: 0.5rem;">Cancel</button>
+            </div>
+
+            <div id="adminPanel" style="display: none;">
+                <div class="admin-header">
+                    <h2>Admin Panel</h2>
+                    <button class="close-admin" onclick="closeAdmin()">Close</button>
+                </div>
+
+                <div id="adminMessage" style="display: none;"></div>
+
+                <div class="admin-tabs">
+                    <button class="admin-tab active" onclick="switchTab('companies')">Manage Companies</button>
+                    <button class="admin-tab" onclick="switchTab('cities')">Manage Cities</button>
+                </div>
+
+                <div id="companiesTab" class="tab-content active">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                        <h3 style="color: #1a3a6b;">Companies</h3>
+                        <button class="add-btn" onclick="showAddCompanyForm()">+ Add New Company</button>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Filter by City</label>
+                        <select id="adminCityFilter" onchange="loadCompaniesAdmin()">
+                            <option value="">All Cities</option>
+                        </select>
+                    </div>
+
+                    <div id="addCompanyForm" style="display: none;">
+                        <!-- Add company form will be generated here -->
+                    </div>
+
+                    <div id="companiesList" class="company-list">
+                        <!-- Companies will be loaded here -->
+                    </div>
+                </div>
+
+                <div id="citiesTab" class="tab-content">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                        <h3 style="color: #1a3a6b;">Cities</h3>
+                        <button class="add-btn" onclick="showAddCityForm()">+ Add New City</button>
+                    </div>
+
+                    <div id="addCityForm" style="display: none;">
+                        <!-- Add city form will be generated here -->
+                    </div>
+
+                    <div id="citiesList" class="company-list">
+                        <!-- Cities will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // Data will be stored in API endpoint with Vercel Blob
+        let currentData = {
+            cities: [],
+            companies: []
+        };
+        let isLoggedIn = false;
+
+        // Initialize the site
+        async function initSite() {
+            await loadData();
+            renderCities();
+            renderCompaniesContainers();
+            populateFooterCities();
+            populateCityFilters();
+        }
+
+        // Load data from API
+        async function loadData() {
+            try {
+                const response = await fetch('/api/data');
+                if (response.ok) {
+                    const json = await response.json();
+                    // Only use API data if it has both cities AND companies; otherwise fall back
+                    if (json && json.cities && json.cities.length > 0 && json.companies && json.companies.length > 0) {
+                        currentData = json;
+                    } else {
+                        currentData = getDefaultData();
+                    }
+                } else {
+                    currentData = getDefaultData();
+                }
+            } catch (error) {
+                // Covers: network error, running locally, bad JSON, etc.
+                currentData = getDefaultData();
+            }
+        }
+
+        // Save data to API
+        async function saveData() {
+            try {
+                const response = await fetch('/api/data', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(currentData)
+                });
+                
+                if (!response.ok) {
+                    throw new Error('Failed to save data');
+                }
+                
+                return true;
+            } catch (error) {
+                console.error('Error saving data:', error);
+                return false;
+            }
+        }
+
+        // Default data structure
+        function getDefaultData() {
+            return {
+                cities: [
+                    { id: 'atlanta', name: 'Atlanta', slug: 'atlanta' },
+                    { id: 'alpharetta', name: 'Alpharetta', slug: 'alpharetta' },
+                    { id: 'marietta', name: 'Marietta', slug: 'marietta' },
+                    { id: 'roswell', name: 'Roswell', slug: 'roswell' },
+                    { id: 'sandy-springs', name: 'Sandy Springs', slug: 'sandy-springs' },
+                    { id: 'johns-creek', name: 'Johns Creek', slug: 'johns-creek' },
+                    { id: 'duluth', name: 'Duluth', slug: 'duluth' },
+                    { id: 'lawrenceville', name: 'Lawrenceville', slug: 'lawrenceville' }
+                ],
+                companies: [
+                    // ATLANTA COMPANIES
+                    {
+                        id: 'patriot-atlanta',
+                        name: 'Patriot Portables',
+                        city: 'atlanta',
+                        rating: 5,
+                        reviewCount: 127,
+                        phone: '(678) 456-3488',
+                        location: 'Serving Atlanta Metro',
+                        hours: 'Same Day Delivery Available',
+                        website: 'https://patriotportables.com',
+                        badges: ['Veteran Owned', 'Best of Forsyth 2024'],
+                        services: ['Standard Porta Potties', 'ADA Compliant Units', 'Luxury Restroom Trailers', 'Hand Washing Stations', 'Construction Sites', 'Special Events'],
+                        reviews: [
+                            {
+                                name: 'Julia S.',
+                                rating: 5,
+                                text: 'I can\'t say enough GREAT things about Patriot Portables! Ken was so personable, accessible and attentive. They delivered 4 porta potties early and picked them up on time. They were very clean! I HIGHLY RECOMMEND Patriot Portables!'
+                            },
+                            {
+                                name: 'Elise M.',
+                                rating: 5,
+                                text: 'The team at Patriot went above and beyond to make my renting experience pleasant and seamless. Their products are clean and fresh. Thank you all for your hard work!'
+                            }
+                        ],
+                        pros: [
+                            'Veteran-owned and operated business',
+                            'Brand new, spotlessly clean units',
+                            'Same-day delivery available',
+                            'Excellent customer service and communication',
+                            'Owner personally oversees deliveries',
+                            'Luxury restroom trailers available'
+                        ],
+                        cons: [
+                            'Premium pricing compared to some competitors',
+                            'Limited service area outside Metro Atlanta'
+                        ]
+                    },
+                    {
+                        id: 'atlanta-pros',
+                        name: 'Atlanta Porta Potty Pros',
+                        city: 'atlanta',
+                        rating: 4,
+                        reviewCount: 89,
+                        phone: '(404) 555-0123',
+                        location: 'Downtown Atlanta',
+                        hours: '24/7 Service',
+                        website: '',
+                        badges: [],
+                        services: ['Standard Units', 'VIP Trailers', 'Festival Services', 'Corporate Events'],
+                        reviews: [
+                            {
+                                name: 'Michael T.',
+                                rating: 5,
+                                text: 'Great service for our construction site. Units were clean and serviced regularly. Would definitely use again for future projects.'
+                            },
+                            {
+                                name: 'Sarah B.',
+                                rating: 4,
+                                text: 'Good overall experience. Delivery was on time and the units were in good condition. Pricing was competitive.'
+                            }
+                        ],
+                        pros: [
+                            '24/7 customer service availability',
+                            'Competitive pricing',
+                            'Regular servicing schedule',
+                            'Experience with large construction projects'
+                        ],
+                        cons: [
+                            'Units show signs of wear and tear',
+                            'Communication could be improved',
+                            'Limited luxury options'
+                        ]
+                    },
+                    {
+                        id: 'georgia-event',
+                        name: 'Georgia Event Rentals',
+                        city: 'atlanta',
+                        rating: 5,
+                        reviewCount: 156,
+                        phone: '(404) 555-0456',
+                        location: 'Midtown Atlanta',
+                        hours: 'Emergency Service Available',
+                        website: '',
+                        badges: ['Top Rated 2025'],
+                        services: ['Wedding Packages', 'Luxury Trailers', 'Event Planning', 'Full Service'],
+                        reviews: [
+                            {
+                                name: 'Amanda K.',
+                                rating: 5,
+                                text: 'Perfect for our outdoor wedding! The luxury trailer was immaculate and added a touch of elegance. Staff was professional and attentive.'
+                            }
+                        ],
+                        pros: [
+                            'Specializes in high-end events and weddings',
+                            'Immaculate luxury trailers',
+                            'Emergency service available',
+                            'Professional and attentive staff',
+                            'Full event planning assistance'
+                        ],
+                        cons: [
+                            'Higher price point',
+                            'Requires advance booking for luxury units',
+                            'Limited availability during peak wedding season'
+                        ]
+                    },
+                    {
+                        id: 'metro-sanitation',
+                        name: 'Metro Sanitation Services',
+                        city: 'atlanta',
+                        rating: 4,
+                        reviewCount: 73,
+                        phone: '(404) 555-0789',
+                        location: 'East Atlanta',
+                        hours: 'Mon-Sat: 7AM-6PM',
+                        website: '',
+                        badges: [],
+                        services: ['Construction Sites', 'Long-term Rentals', 'Commercial Projects'],
+                        reviews: [
+                            {
+                                name: 'David R.',
+                                rating: 4,
+                                text: 'Reliable service for our 6-month construction project. Regular maintenance kept everything clean and functional.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'southern-comfort',
+                        name: 'Southern Comfort Portables',
+                        city: 'atlanta',
+                        rating: 5,
+                        reviewCount: 94,
+                        phone: '(404) 555-0234',
+                        location: 'West Atlanta',
+                        hours: 'Same Day Available',
+                        website: '',
+                        badges: [],
+                        services: ['Special Events', 'Festival Services', 'ADA Units', 'Hand Wash Stations'],
+                        reviews: [
+                            {
+                                name: 'Lisa P.',
+                                rating: 5,
+                                text: 'Fantastic service! They delivered exactly when promised and the units were spotless. Great pricing too!'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'peachtree-portable',
+                        name: 'Peachtree Portable Solutions',
+                        city: 'atlanta',
+                        rating: 4,
+                        reviewCount: 62,
+                        phone: '(404) 555-0567',
+                        location: 'Buckhead',
+                        hours: 'Mon-Fri: 8AM-5PM',
+                        website: '',
+                        badges: [],
+                        services: ['Corporate Events', 'Standard Units', 'Delivery & Pickup'],
+                        reviews: [
+                            {
+                                name: 'Robert H.',
+                                rating: 4,
+                                text: 'Professional service and fair pricing. Units arrived on time and were picked up promptly after our event.'
+                            }
+                        ]
+                    },
+
+                    // ALPHARETTA COMPANIES
+                    {
+                        id: 'patriot-alpharetta',
+                        name: 'Patriot Portables',
+                        city: 'alpharetta',
+                        rating: 5,
+                        reviewCount: 127,
+                        phone: '(678) 456-3488',
+                        location: 'Serving Alpharetta',
+                        hours: 'Same Day Delivery Available',
+                        website: 'https://patriotportables.com',
+                        badges: ['Veteran Owned', 'Best of Forsyth 2024'],
+                        services: ['Standard Porta Potties', 'ADA Compliant Units', 'Luxury Restroom Trailers', 'Hand Washing Stations'],
+                        reviews: [
+                            {
+                                name: 'Julie S.',
+                                rating: 5,
+                                text: 'Excellent service in Alpharetta! The equipment was brand new and never been used. Communication was clear and professional throughout.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'north-fulton',
+                        name: 'North Fulton Portable Restrooms',
+                        city: 'alpharetta',
+                        rating: 4,
+                        reviewCount: 67,
+                        phone: '(770) 555-1234',
+                        location: 'Alpharetta, GA',
+                        hours: 'Mon-Fri: 8AM-5PM',
+                        website: '',
+                        badges: [],
+                        services: ['Corporate Events', 'Construction', 'VIP Trailers'],
+                        reviews: [
+                            {
+                                name: 'Kevin M.',
+                                rating: 4,
+                                text: 'Good service for our office construction project. They were responsive to our needs.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'alpha-events',
+                        name: 'Alpharetta Event Solutions',
+                        city: 'alpharetta',
+                        rating: 5,
+                        reviewCount: 112,
+                        phone: '(770) 555-5678',
+                        location: 'Downtown Alpharetta',
+                        hours: '24/7 Emergency Service',
+                        website: '',
+                        badges: ['Top Rated'],
+                        services: ['Weddings', 'Festivals', 'Luxury Options'],
+                        reviews: [
+                            {
+                                name: 'Jennifer L.',
+                                rating: 5,
+                                text: 'Our wedding guests were impressed with the luxury trailer. Clean, spacious, and beautifully maintained!'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'premier-alpha',
+                        name: 'Premier Portable Toilets',
+                        city: 'alpharetta',
+                        rating: 4,
+                        reviewCount: 54,
+                        phone: '(770) 555-9012',
+                        location: 'North Alpharetta',
+                        hours: 'Daily Service Available',
+                        website: '',
+                        badges: [],
+                        services: ['Standard Units', 'ADA Compliant'],
+                        reviews: []
+                    },
+                    {
+                        id: 'clean-green-alpha',
+                        name: 'Clean & Green Portables',
+                        city: 'alpharetta',
+                        rating: 5,
+                        reviewCount: 88,
+                        phone: '(770) 555-3456',
+                        location: 'Alpharetta',
+                        hours: 'Eco-Friendly Options',
+                        website: '',
+                        badges: ['Eco-Certified'],
+                        services: ['Green Solutions', 'Event Services'],
+                        reviews: [
+                            {
+                                name: 'Patricia W.',
+                                rating: 5,
+                                text: 'Love that they offer eco-friendly options! Great for our sustainability-focused event.'
+                            }
+                        ]
+                    },
+
+                    // MARIETTA COMPANIES
+                    {
+                        id: 'patriot-marietta',
+                        name: 'Patriot Portables',
+                        city: 'marietta',
+                        rating: 5,
+                        reviewCount: 127,
+                        phone: '(678) 456-3488',
+                        location: 'Serving Marietta',
+                        hours: 'Same Day Delivery Available',
+                        website: 'https://patriotportables.com',
+                        badges: ['Veteran Owned'],
+                        services: ['All Services Available'],
+                        reviews: []
+                    },
+                    {
+                        id: 'cobb-portables',
+                        name: 'Cobb County Portables',
+                        city: 'marietta',
+                        rating: 4,
+                        reviewCount: 76,
+                        phone: '(770) 555-2345',
+                        location: 'Marietta Square',
+                        hours: 'Mon-Sat: 7AM-6PM',
+                        website: '',
+                        badges: [],
+                        services: ['Construction', 'Events'],
+                        reviews: [
+                            {
+                                name: 'Tom B.',
+                                rating: 4,
+                                text: 'Solid service for our construction needs. Weekly servicing was reliable.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'marietta-sanitation',
+                        name: 'Marietta Sanitation Pro',
+                        city: 'marietta',
+                        rating: 5,
+                        reviewCount: 91,
+                        phone: '(770) 555-6789',
+                        location: 'East Marietta',
+                        hours: '24/7 Service',
+                        website: '',
+                        badges: [],
+                        services: ['Full Service', 'Emergency Response'],
+                        reviews: [
+                            {
+                                name: 'Carol D.',
+                                rating: 5,
+                                text: 'They saved the day when we had an emergency need for additional units. Highly recommend!'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'quick-serve-marietta',
+                        name: 'Quick Serve Portables',
+                        city: 'marietta',
+                        rating: 4,
+                        reviewCount: 58,
+                        phone: '(770) 555-0123',
+                        location: 'West Marietta',
+                        hours: 'Same Day Available',
+                        website: '',
+                        badges: [],
+                        services: ['Fast Delivery', 'Standard Units'],
+                        reviews: []
+                    },
+                    {
+                        id: 'blue-ridge-marietta',
+                        name: 'Blue Ridge Rentals',
+                        city: 'marietta',
+                        rating: 5,
+                        reviewCount: 102,
+                        phone: '(770) 555-4567',
+                        location: 'Marietta',
+                        hours: 'Full Service',
+                        website: '',
+                        badges: ['Family Owned'],
+                        services: ['Premium Service', 'Long-term Rentals'],
+                        reviews: [
+                            {
+                                name: 'Steve M.',
+                                rating: 5,
+                                text: 'Family-owned business that really cares. Been using them for years on our projects.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'marietta-pro',
+                        name: 'Marietta Portable Pro',
+                        city: 'marietta',
+                        rating: 4,
+                        reviewCount: 45,
+                        phone: '(770) 555-7890',
+                        location: 'Central Marietta',
+                        hours: 'Mon-Fri: 8AM-5PM',
+                        website: '',
+                        badges: [],
+                        services: ['Construction Sites', 'Event Rentals'],
+                        reviews: []
+                    },
+
+                    // ROSWELL COMPANIES
+                    {
+                        id: 'patriot-roswell',
+                        name: 'Patriot Portables',
+                        city: 'roswell',
+                        rating: 5,
+                        reviewCount: 127,
+                        phone: '(678) 456-3488',
+                        location: 'Serving Roswell',
+                        hours: 'Same Day Delivery Available',
+                        website: 'https://patriotportables.com',
+                        badges: ['Veteran Owned'],
+                        services: ['All Services Available'],
+                        reviews: []
+                    },
+                    {
+                        id: 'roswell-events',
+                        name: 'Roswell Event Services',
+                        city: 'roswell',
+                        rating: 4,
+                        reviewCount: 69,
+                        phone: '(770) 555-7890',
+                        location: 'Historic Roswell',
+                        hours: 'Event Specialists',
+                        website: '',
+                        badges: [],
+                        services: ['Weddings', 'Corporate Events', 'Luxury Trailers'],
+                        reviews: [
+                            {
+                                name: 'Michelle R.',
+                                rating: 4,
+                                text: 'Great for our company picnic. Professional setup and takedown.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'north-metro-roswell',
+                        name: 'North Metro Portables',
+                        city: 'roswell',
+                        rating: 5,
+                        reviewCount: 84,
+                        phone: '(770) 555-1357',
+                        location: 'East Roswell',
+                        hours: '7 Days a Week',
+                        website: '',
+                        badges: [],
+                        services: ['Standard Units', 'ADA Compliant', 'Hand Wash Stations'],
+                        reviews: [
+                            {
+                                name: 'Brian K.',
+                                rating: 5,
+                                text: 'Dependable and clean. Used them for multiple events without any issues.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'chattahoochee-portable',
+                        name: 'Chattahoochee Portable Toilets',
+                        city: 'roswell',
+                        rating: 4,
+                        reviewCount: 61,
+                        phone: '(770) 555-2468',
+                        location: 'Roswell',
+                        hours: 'Mon-Sat',
+                        website: '',
+                        badges: [],
+                        services: ['Construction', 'Events'],
+                        reviews: []
+                    },
+                    {
+                        id: 'elite-roswell',
+                        name: 'Elite Restroom Rentals',
+                        city: 'roswell',
+                        rating: 5,
+                        reviewCount: 97,
+                        phone: '(770) 555-3579',
+                        location: 'Roswell Area',
+                        hours: 'Premium Service',
+                        website: '',
+                        badges: ['Luxury Specialist'],
+                        services: ['Luxury Trailers', 'VIP Events', 'Weddings'],
+                        reviews: [
+                            {
+                                name: 'Diana S.',
+                                rating: 5,
+                                text: 'The luxury trailer was stunning! Our wedding guests thought it was a permanent restroom. Worth every penny!'
+                            }
+                        ]
+                    },
+
+                    // SANDY SPRINGS COMPANIES
+                    {
+                        id: 'patriot-sandy',
+                        name: 'Patriot Portables',
+                        city: 'sandy-springs',
+                        rating: 5,
+                        reviewCount: 127,
+                        phone: '(678) 456-3488',
+                        location: 'Serving Sandy Springs',
+                        hours: 'Same Day Delivery Available',
+                        website: 'https://patriotportables.com',
+                        badges: ['Veteran Owned'],
+                        services: ['All Services Available'],
+                        reviews: []
+                    },
+                    {
+                        id: 'sandy-sanitation',
+                        name: 'Sandy Springs Sanitation',
+                        city: 'sandy-springs',
+                        rating: 4,
+                        reviewCount: 72,
+                        phone: '(404) 555-8901',
+                        location: 'Sandy Springs',
+                        hours: 'Mon-Sat: 7AM-7PM',
+                        website: '',
+                        badges: [],
+                        services: ['Construction', 'Commercial', 'Residential Events'],
+                        reviews: [
+                            {
+                                name: 'Mark L.',
+                                rating: 4,
+                                text: 'Good pricing and reliable service. They handle all our commercial projects.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'perimeter-portable',
+                        name: 'Perimeter Portables',
+                        city: 'sandy-springs',
+                        rating: 5,
+                        reviewCount: 86,
+                        phone: '(404) 555-2345',
+                        location: 'Perimeter Center',
+                        hours: '24/7 Available',
+                        website: '',
+                        badges: [],
+                        services: ['Corporate Events', 'Office Construction', 'Quick Service'],
+                        reviews: [
+                            {
+                                name: 'Susan T.',
+                                rating: 5,
+                                text: 'Perfect for our office building renovation. Weekly service was always on time.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'springs-solutions',
+                        name: 'Springs Event Solutions',
+                        city: 'sandy-springs',
+                        rating: 4,
+                        reviewCount: 64,
+                        phone: '(404) 555-6789',
+                        location: 'Sandy Springs',
+                        hours: 'Event Focused',
+                        website: '',
+                        badges: [],
+                        services: ['Events', 'Festivals', 'Standard & Luxury'],
+                        reviews: []
+                    },
+                    {
+                        id: 'executive-sandy',
+                        name: 'Executive Portable Restrooms',
+                        city: 'sandy-springs',
+                        rating: 5,
+                        reviewCount: 95,
+                        phone: '(404) 555-0123',
+                        location: 'Sandy Springs',
+                        hours: 'Premium Service',
+                        website: '',
+                        badges: ['Top Rated 2025'],
+                        services: ['Luxury Trailers', 'Executive Events', 'Corporate Functions'],
+                        reviews: [
+                            {
+                                name: 'James P.',
+                                rating: 5,
+                                text: 'High-end service for high-end events. Their luxury trailers are immaculate.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'sandy-springs-pro',
+                        name: 'Sandy Springs Portable Pro',
+                        city: 'sandy-springs',
+                        rating: 4,
+                        reviewCount: 51,
+                        phone: '(404) 555-4567',
+                        location: 'North Sandy Springs',
+                        hours: 'Mon-Fri: 8AM-6PM',
+                        website: '',
+                        badges: [],
+                        services: ['Standard Units', 'Construction Sites'],
+                        reviews: []
+                    },
+
+                    // JOHNS CREEK COMPANIES
+                    {
+                        id: 'patriot-johns',
+                        name: 'Patriot Portables',
+                        city: 'johns-creek',
+                        rating: 5,
+                        reviewCount: 127,
+                        phone: '(678) 456-3488',
+                        location: 'Serving Johns Creek',
+                        hours: 'Same Day Delivery Available',
+                        website: 'https://patriotportables.com',
+                        badges: ['Veteran Owned'],
+                        services: ['All Services Available'],
+                        reviews: []
+                    },
+                    {
+                        id: 'johns-creek-portable',
+                        name: 'Johns Creek Portable Solutions',
+                        city: 'johns-creek',
+                        rating: 4,
+                        reviewCount: 68,
+                        phone: '(678) 555-1234',
+                        location: 'Johns Creek',
+                        hours: 'Daily Service',
+                        website: '',
+                        badges: [],
+                        services: ['Residential', 'Commercial', 'Events'],
+                        reviews: [
+                            {
+                                name: 'Rachel G.',
+                                rating: 4,
+                                text: 'Great for our neighborhood block party. Clean units and friendly service.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'creek-side',
+                        name: 'Creek Side Rentals',
+                        city: 'johns-creek',
+                        rating: 5,
+                        reviewCount: 79,
+                        phone: '(678) 555-5678',
+                        location: 'Johns Creek',
+                        hours: 'Full Service',
+                        website: '',
+                        badges: [],
+                        services: ['Events', 'Construction', 'Long-term'],
+                        reviews: [
+                            {
+                                name: 'Andrew M.',
+                                rating: 5,
+                                text: 'Used them for our home renovation. Units were always clean and well-maintained.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'premium-johns',
+                        name: 'Premium Event Portables',
+                        city: 'johns-creek',
+                        rating: 4,
+                        reviewCount: 56,
+                        phone: '(678) 555-9012',
+                        location: 'Johns Creek',
+                        hours: 'Event Specialists',
+                        website: '',
+                        badges: [],
+                        services: ['Weddings', 'Corporate', 'Premium Service'],
+                        reviews: []
+                    },
+                    {
+                        id: 'luxury-jc',
+                        name: 'Luxury Portable Restrooms JC',
+                        city: 'johns-creek',
+                        rating: 5,
+                        reviewCount: 91,
+                        phone: '(678) 555-3456',
+                        location: 'Johns Creek',
+                        hours: 'Luxury Specialist',
+                        website: '',
+                        badges: ['Luxury Certified'],
+                        services: ['Luxury Trailers', 'VIP Events', 'High-End Weddings'],
+                        reviews: [
+                            {
+                                name: 'Elizabeth H.',
+                                rating: 5,
+                                text: 'Absolutely beautiful luxury trailer for our outdoor wedding. Guests were amazed!'
+                            }
+                        ]
+                    },
+
+                    // DULUTH COMPANIES
+                    {
+                        id: 'patriot-duluth',
+                        name: 'Patriot Portables',
+                        city: 'duluth',
+                        rating: 5,
+                        reviewCount: 127,
+                        phone: '(678) 456-3488',
+                        location: 'Serving Duluth',
+                        hours: 'Same Day Delivery Available',
+                        website: 'https://patriotportables.com',
+                        badges: ['Veteran Owned'],
+                        services: ['All Services Available'],
+                        reviews: []
+                    },
+                    {
+                        id: 'gwinnett-portable',
+                        name: 'Gwinnett Portable Services',
+                        city: 'duluth',
+                        rating: 4,
+                        reviewCount: 74,
+                        phone: '(678) 555-7890',
+                        location: 'Duluth',
+                        hours: 'Mon-Sat',
+                        website: '',
+                        badges: [],
+                        services: ['Construction', 'Events', 'Standard Units'],
+                        reviews: [
+                            {
+                                name: 'Chris W.',
+                                rating: 4,
+                                text: 'Reliable for construction sites. Fair pricing and consistent service.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'duluth-events',
+                        name: 'Duluth Event Rentals',
+                        city: 'duluth',
+                        rating: 5,
+                        reviewCount: 88,
+                        phone: '(678) 555-1357',
+                        location: 'Duluth',
+                        hours: 'Event Focus',
+                        website: '',
+                        badges: [],
+                        services: ['Festivals', 'Corporate Events', 'Party Rentals'],
+                        reviews: [
+                            {
+                                name: 'Maria S.',
+                                rating: 5,
+                                text: 'Perfect for our company festival. They handled everything professionally.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'clean-comfort-duluth',
+                        name: 'Clean Comfort Portables',
+                        city: 'duluth',
+                        rating: 4,
+                        reviewCount: 62,
+                        phone: '(678) 555-2468',
+                        location: 'Duluth',
+                        hours: 'Daily Service',
+                        website: '',
+                        badges: [],
+                        services: ['Standard Units', 'Hand Wash Stations'],
+                        reviews: []
+                    },
+                    {
+                        id: 'superior-duluth',
+                        name: 'Superior Sanitation Duluth',
+                        city: 'duluth',
+                        rating: 5,
+                        reviewCount: 93,
+                        phone: '(678) 555-3579',
+                        location: 'Duluth',
+                        hours: '24/7 Service',
+                        website: '',
+                        badges: ['Family Owned'],
+                        services: ['Full Service', 'Emergency Response', 'Long-term Rentals'],
+                        reviews: [
+                            {
+                                name: 'Jose R.',
+                                rating: 5,
+                                text: 'Outstanding service! They go above and beyond. Family-owned and it shows in their care.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'duluth-pro-services',
+                        name: 'Duluth Pro Portable Services',
+                        city: 'duluth',
+                        rating: 4,
+                        reviewCount: 47,
+                        phone: '(678) 555-8901',
+                        location: 'West Duluth',
+                        hours: 'Mon-Fri: 8AM-5PM',
+                        website: '',
+                        badges: [],
+                        services: ['Construction', 'Commercial'],
+                        reviews: []
+                    },
+
+                    // LAWRENCEVILLE COMPANIES
+                    {
+                        id: 'patriot-lawrenceville',
+                        name: 'Patriot Portables',
+                        city: 'lawrenceville',
+                        rating: 5,
+                        reviewCount: 127,
+                        phone: '(678) 456-3488',
+                        location: 'Serving Lawrenceville',
+                        hours: 'Same Day Delivery Available',
+                        website: 'https://patriotportables.com',
+                        badges: ['Veteran Owned'],
+                        services: ['All Services Available'],
+                        reviews: []
+                    },
+                    {
+                        id: 'lawrenceville-portable',
+                        name: 'Lawrenceville Portable Toilets',
+                        city: 'lawrenceville',
+                        rating: 4,
+                        reviewCount: 71,
+                        phone: '(770) 555-8901',
+                        location: 'Lawrenceville',
+                        hours: 'Mon-Sat: 7AM-6PM',
+                        website: '',
+                        badges: [],
+                        services: ['Construction', 'Residential', 'Commercial'],
+                        reviews: [
+                            {
+                                name: 'William D.',
+                                rating: 4,
+                                text: 'Good service for our home addition project. Responsive and professional.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'gwinnett-county-rentals',
+                        name: 'Gwinnett County Rentals',
+                        city: 'lawrenceville',
+                        rating: 5,
+                        reviewCount: 85,
+                        phone: '(770) 555-2345',
+                        location: 'Lawrenceville',
+                        hours: 'Full Service',
+                        website: '',
+                        badges: [],
+                        services: ['Events', 'Construction', 'All Unit Types'],
+                        reviews: [
+                            {
+                                name: 'Nancy K.',
+                                rating: 5,
+                                text: 'They service all of Gwinnett. Always reliable and clean units.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'quick-response-lawrenceville',
+                        name: 'Quick Response Portables',
+                        city: 'lawrenceville',
+                        rating: 4,
+                        reviewCount: 59,
+                        phone: '(770) 555-6789',
+                        location: 'Lawrenceville',
+                        hours: 'Fast Service',
+                        website: '',
+                        badges: [],
+                        services: ['Emergency Service', 'Same Day', 'Standard Units'],
+                        reviews: []
+                    },
+                    {
+                        id: 'reliable-lawrenceville',
+                        name: 'Reliable Restroom Services',
+                        city: 'lawrenceville',
+                        rating: 5,
+                        reviewCount: 96,
+                        phone: '(770) 555-0123',
+                        location: 'Lawrenceville',
+                        hours: '24/7 Available',
+                        website: '',
+                        badges: ['Top Rated'],
+                        services: ['All Services', 'Commercial Focus', 'Long-term Contracts'],
+                        reviews: [
+                            {
+                                name: 'George T.',
+                                rating: 5,
+                                text: 'We use them for all our commercial construction projects. Never disappointed!'
+                            }
+                        ]
+                    },
+                    {
+                        id: 'lawrenceville-sanitation',
+                        name: 'Lawrenceville Sanitation Pro',
+                        city: 'lawrenceville',
+                        rating: 4,
+                        reviewCount: 53,
+                        phone: '(770) 555-4567',
+                        location: 'Central Lawrenceville',
+                        hours: 'Mon-Fri: 8AM-5PM',
+                        website: '',
+                        badges: [],
+                        services: ['Standard Service', 'Construction Sites'],
+                        reviews: []
+                    }
+                ]
+            };
+        }
+
+        // Render cities grid
+        function renderCities() {
+            const grid = document.getElementById('citiesGrid');
+            grid.innerHTML = currentData.cities.map(city => {
+                const companyCount = currentData.companies.filter(c => c.city === city.id).length;
+                return `
+                    <a href="#" class="city-card" onclick="showCity('${city.id}'); return false;">
+                        <h3>${city.name}</h3>
+                        <p class="company-count">${companyCount} Companies</p>
+                    </a>
+                `;
+            }).join('');
+        }
+
+        // Render all company containers
+        function renderCompaniesContainers() {
+            const container = document.getElementById('companiesContainer');
+            container.innerHTML = currentData.cities.map(city => `
+                <div id="${city.id}-companies" class="companies-list">
+                    <button class="back-btn" onclick="backToCities()">← Back to Cities</button>
+                    <h2 class="section-title">Porta Potty Rentals in ${city.name}</h2>
+                    ${renderCompaniesForCity(city.id)}
+                </div>
+            `).join('');
+        }
+
+        // Render companies for a specific city
+        function renderCompaniesForCity(cityId) {
+            const companies = currentData.companies.filter(c => c.city === cityId);
+            
+            return companies.map(company => `
+                <div class="company-card">
+                    <div class="company-header">
+                        <div class="company-info">
+                            <h3>${company.name}</h3>
+                            <div class="rating">
+                                <span class="stars">${'★'.repeat(company.rating)}${'☆'.repeat(5 - company.rating)}</span>
+                                <span class="review-count">(${company.reviewCount} reviews)</span>
+                            </div>
+                        </div>
+                        ${company.website ? 
+                            `<a href="${company.website}" class="contact-btn" target="_blank">Visit Website</a>` :
+                            company.phone ? 
+                                `<a href="tel:${company.phone}" class="contact-btn">Call Now</a>` :
+                                `<a href="#contact" class="contact-btn quote-btn">Request Quote</a>`
+                        }
+                    </div>
+                    <div class="company-details">
+                        ${company.phone ? `
+                            <div class="detail-item">
+                                <strong>📞</strong> ${company.phone}
+                            </div>
+                        ` : ''}
+                        <div class="detail-item">
+                            <strong>📍</strong> ${company.location}
+                        </div>
+                        ${company.hours ? `
+                            <div class="detail-item">
+                                <strong>⏰</strong> ${company.hours}
+                            </div>
+                        ` : ''}
+                        ${company.badges && company.badges.length > 0 ? company.badges.map(badge => `
+                            <div class="detail-item">
+                                <strong>✓</strong> ${badge}
+                            </div>
+                        `).join('') : ''}
+                    </div>
+                    ${company.services && company.services.length > 0 ? `
+                        <div class="services">
+                            <h4>Services Offered:</h4>
+                            <div class="service-tags">
+                                ${company.services.map(service => `
+                                    <span class="service-tag">${service}</span>
+                                `).join('')}
+                            </div>
+                        </div>
+                    ` : ''}
+                    ${company.reviews && company.reviews.length > 0 ? `
+                        <div class="reviews-section">
+                            <h4>Recent Reviews:</h4>
+                            ${company.reviews.map(review => `
+                                <div class="review">
+                                    <div class="review-header">
+                                        <span class="reviewer-name">${review.name}</span>
+                                        <span class="stars">${'★'.repeat(review.rating)}${'☆'.repeat(5 - review.rating)}</span>
+                                    </div>
+                                    <p class="review-text">${review.text}</p>
+                                </div>
+                            `).join('')}
+                        </div>
+                    ` : ''}
+                    ${(company.pros && company.pros.length > 0) || (company.cons && company.cons.length > 0) ? `
+                        <div class="pros-cons-section">
+                            ${company.pros && company.pros.length > 0 ? `
+                                <div class="pros-box">
+                                    <h4>👍 What We Like</h4>
+                                    <ul class="pros-list">
+                                        ${company.pros.map(pro => `<li>${pro}</li>`).join('')}
+                                    </ul>
+                                </div>
+                            ` : ''}
+                            ${company.cons && company.cons.length > 0 ? `
+                                <div class="cons-box">
+                                    <h4>👎 What We Don't Like</h4>
+                                    <ul class="cons-list">
+                                        ${company.cons.map(con => `<li>${con}</li>`).join('')}
+                                    </ul>
+                                </div>
+                            ` : ''}
+                        </div>
+                    ` : ''}
+                </div>
+            `).join('');
+        }
+
+        // Show city companies
+        function showCity(cityId) {
+            document.querySelector('.cities-section').style.display = 'none';
+            document.querySelectorAll('.companies-list').forEach(list => {
+                list.classList.remove('active');
+            });
+            
+            const selectedList = document.getElementById(cityId + '-companies');
+            if (selectedList) {
+                selectedList.classList.add('active');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        }
+
+        // Back to cities
+        function backToCities() {
+            document.querySelector('.cities-section').style.display = 'block';
+            document.querySelectorAll('.companies-list').forEach(list => {
+                list.classList.remove('active');
+            });
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Search functionality
+        // Populate footer cities
+        function populateFooterCities() {
+            const footer = document.getElementById('footerCities');
+            footer.innerHTML = currentData.cities.slice(0, 4).map(city => `
+                <li><a href="#" onclick="showCity('${city.id}'); return false;">${city.name}</a></li>
+            `).join('');
+        }
+
+        // Populate city filters
+        function populateCityFilters() {
+            const adminFilter = document.getElementById('adminCityFilter');
+            
+            if (adminFilter) {
+                const currentValue = adminFilter.value;
+                adminFilter.innerHTML = '<option value="">All Cities</option>' + 
+                    currentData.cities.map(city => 
+                        `<option value="${city.id}">${city.name}</option>`
+                    ).join('');
+                adminFilter.value = currentValue;
+            }
+        }
+
+        // Admin functions
+        function openAdmin() {
+            document.getElementById('adminModal').classList.add('active');
+            if (isLoggedIn) {
+                document.getElementById('loginSection').style.display = 'none';
+                document.getElementById('adminPanel').style.display = 'block';
+                loadCompaniesAdmin();
+                loadCitiesAdmin();
+            }
+        }
+
+        function closeAdmin() {
+            document.getElementById('adminModal').classList.remove('active');
+            document.getElementById('loginError').style.display = 'none';
+            document.getElementById('adminUsername').value = '';
+            document.getElementById('adminPassword').value = '';
+        }
+
+        async function adminLogin() {
+            const username = document.getElementById('adminUsername').value;
+            const password = document.getElementById('adminPassword').value;
+            
+            // Simple authentication - you should change these credentials
+            if (username === 'admin' && password === 'patriot2026') {
+                isLoggedIn = true;
+                document.getElementById('loginSection').style.display = 'none';
+                document.getElementById('adminPanel').style.display = 'block';
+                document.getElementById('loginError').style.display = 'none';
+                await loadCompaniesAdmin();
+                await loadCitiesAdmin();
+            } else {
+                document.getElementById('loginError').textContent = 'Invalid username or password';
+                document.getElementById('loginError').style.display = 'block';
+            }
+        }
+
+        function switchTab(tab) {
+            document.querySelectorAll('.admin-tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            
+            if (tab === 'companies') {
+                document.querySelector('[onclick="switchTab(\'companies\')"]').classList.add('active');
+                document.getElementById('companiesTab').classList.add('active');
+            } else {
+                document.querySelector('[onclick="switchTab(\'cities\')"]').classList.add('active');
+                document.getElementById('citiesTab').classList.add('active');
+            }
+        }
+
+        // Load companies in admin
+        function loadCompaniesAdmin() {
+            const filterCity = document.getElementById('adminCityFilter').value;
+            const companies = filterCity ? 
+                currentData.companies.filter(c => c.city === filterCity) : 
+                currentData.companies;
+            
+            const list = document.getElementById('companiesList');
+            list.innerHTML = companies.map(company => {
+                const city = currentData.cities.find(c => c.id === company.city);
+                return `
+                    <div class="admin-company-card">
+                        <div class="admin-company-header">
+                            <div>
+                                <h4>${company.name}</h4>
+                                <p style="color: #666; font-size: 0.9rem;">${city ? city.name : 'Unknown City'} | ${company.rating}★ | ${company.reviewCount} reviews</p>
+                            </div>
+                            <div class="admin-btn-group">
+                                <button class="edit-btn" onclick='editCompany(${JSON.stringify(company).replace(/'/g, "&#39;")})'>Edit</button>
+                                <button class="delete-btn" onclick="deleteCompany('${company.id}')">Delete</button>
+                            </div>
+                        </div>
+                        <p style="color: #666; margin-top: 0.5rem;">${company.phone} | ${company.location}</p>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Load cities in admin
+        function loadCitiesAdmin() {
+            const list = document.getElementById('citiesList');
+            list.innerHTML = currentData.cities.map(city => {
+                const companyCount = currentData.companies.filter(c => c.city === city.id).length;
+                return `
+                    <div class="admin-company-card">
+                        <div class="admin-company-header">
+                            <div>
+                                <h4>${city.name}</h4>
+                                <p style="color: #666; font-size: 0.9rem;">${companyCount} companies</p>
+                            </div>
+                            <div class="admin-btn-group">
+                                <button class="edit-btn" onclick='editCity(${JSON.stringify(city).replace(/'/g, "&#39;")})'>Edit</button>
+                                <button class="delete-btn" onclick="deleteCity('${city.id}')">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Show add company form
+        function showAddCompanyForm() {
+            const form = document.getElementById('addCompanyForm');
+            form.style.display = 'block';
+            form.innerHTML = generateCompanyForm(null);
+            form.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Show add city form
+        function showAddCityForm() {
+            const form = document.getElementById('addCityForm');
+            form.style.display = 'block';
+            form.innerHTML = generateCityForm(null);
+            form.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Generate company form
+        function generateCompanyForm(company) {
+            const isEdit = company !== null;
+            const formId = isEdit ? 'editForm' : 'addForm';
+            
+            return `
+                <div class="edit-form">
+                    <h3 style="color: #1a3a6b; margin-bottom: 1.5rem;">${isEdit ? 'Edit' : 'Add New'} Company</h3>
+                    <form id="${formId}" onsubmit="saveCompany(event, ${isEdit})">
+                        <input type="hidden" name="id" value="${company?.id || ''}">
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Company Name *</label>
+                                <input type="text" name="name" value="${company?.name || ''}" required>
+                            </div>
+                            <div class="form-group">
+                                <label>City *</label>
+                                <select name="city" required>
+                                    <option value="">Select City</option>
+                                    ${currentData.cities.map(c => `
+                                        <option value="${c.id}" ${company?.city === c.id ? 'selected' : ''}>${c.name}</option>
+                                    `).join('')}
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Phone *</label>
+                                <input type="tel" name="phone" value="${company?.phone || ''}" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Location *</label>
+                                <input type="text" name="location" value="${company?.location || ''}" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Rating (1-5) *</label>
+                                <input type="number" name="rating" min="1" max="5" value="${company?.rating || 5}" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Review Count *</label>
+                                <input type="number" name="reviewCount" value="${company?.reviewCount || 0}" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Hours</label>
+                                <input type="text" name="hours" value="${company?.hours || ''}" placeholder="e.g., Mon-Fri: 8AM-5PM">
+                            </div>
+                            <div class="form-group">
+                                <label>Website</label>
+                                <input type="url" name="website" value="${company?.website || ''}" placeholder="https://example.com">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Badges (comma-separated)</label>
+                            <input type="text" name="badges" value="${company?.badges?.join(', ') || ''}" placeholder="e.g., Veteran Owned, Family Business">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Services (comma-separated) *</label>
+                            <textarea name="services" required placeholder="e.g., Standard Porta Potties, ADA Compliant Units, Luxury Trailers">${company?.services?.join(', ') || ''}</textarea>
+                        </div>
+
+                        <div class="review-form-section">
+                            <h4 style="color: #1a3a6b; margin-bottom: 1rem;">Reviews</h4>
+                            <div id="reviewsList">
+                                ${company?.reviews?.map((review, index) => `
+                                    <div class="review-item">
+                                        <div class="form-group">
+                                            <label>Reviewer Name</label>
+                                            <input type="text" name="review_name_${index}" value="${review.name}">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Rating (1-5)</label>
+                                            <input type="number" name="review_rating_${index}" min="1" max="5" value="${review.rating}">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Review Text</label>
+                                            <textarea name="review_text_${index}">${review.text}</textarea>
+                                        </div>
+                                        <button type="button" class="remove-review-btn" onclick="this.parentElement.remove()">Remove Review</button>
+                                    </div>
+                                `).join('') || ''}
+                            </div>
+                            <button type="button" class="add-review-btn" onclick="addReviewField()">+ Add Review</button>
+                        </div>
+
+                        <div class="pros-cons-form-section">
+                            <h4 style="color: #1a3a6b; margin: 2rem 0 1rem;">👍 What We Like (Pros)</h4>
+                            <div id="prosList">
+                                ${company?.pros?.map((pro, index) => `
+                                    <div class="pros-cons-item">
+                                        <input type="text" name="pro_${index}" value="${pro}" placeholder="Enter a positive point">
+                                        <button type="button" class="remove-item-btn" onclick="this.parentElement.remove()">✕</button>
+                                    </div>
+                                `).join('') || ''}
+                            </div>
+                            <button type="button" class="add-item-btn" onclick="addProsField()">+ Add Pro</button>
+
+                            <h4 style="color: #1a3a6b; margin: 2rem 0 1rem;">👎 What We Don't Like (Cons)</h4>
+                            <div id="consList">
+                                ${company?.cons?.map((con, index) => `
+                                    <div class="pros-cons-item">
+                                        <input type="text" name="con_${index}" value="${con}" placeholder="Enter a negative point">
+                                        <button type="button" class="remove-item-btn" onclick="this.parentElement.remove()">✕</button>
+                                    </div>
+                                `).join('') || ''}
+                            </div>
+                            <button type="button" class="add-item-btn" onclick="addConsField()">+ Add Con</button>
+                        </div>
+
+                        <div style="margin-top: 2rem; display: flex; gap: 1rem;">
+                            <button type="submit" class="save-btn">Save Company</button>
+                            <button type="button" class="cancel-btn" onclick="cancelForm('${isEdit ? 'edit' : 'add'}Company')">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            `;
+        }
+
+        // Generate city form
+        function generateCityForm(city) {
+            const isEdit = city !== null;
+            const formId = isEdit ? 'editCityForm' : 'addCityForm';
+            
+            return `
+                <div class="edit-form">
+                    <h3 style="color: #1a3a6b; margin-bottom: 1.5rem;">${isEdit ? 'Edit' : 'Add New'} City</h3>
+                    <form id="${formId}" onsubmit="saveCity(event, ${isEdit})">
+                        <input type="hidden" name="id" value="${city?.id || ''}">
+                        
+                        <div class="form-group">
+                            <label>City Name *</label>
+                            <input type="text" name="name" value="${city?.name || ''}" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>URL Slug *</label>
+                            <input type="text" name="slug" value="${city?.slug || ''}" required placeholder="e.g., atlanta or sandy-springs">
+                            <small style="color: #666;">Use lowercase and hyphens for spaces</small>
+                        </div>
+
+                        <div style="margin-top: 2rem; display: flex; gap: 1rem;">
+                            <button type="submit" class="save-btn">Save City</button>
+                            <button type="button" class="cancel-btn" onclick="cancelForm('${isEdit ? 'edit' : 'add'}City')">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            `;
+        }
+
+        // Add review field
+        function addReviewField() {
+            const reviewsList = document.getElementById('reviewsList');
+            const index = reviewsList.children.length;
+            const reviewItem = document.createElement('div');
+            reviewItem.className = 'review-item';
+            reviewItem.innerHTML = `
+                <div class="form-group">
+                    <label>Reviewer Name</label>
+                    <input type="text" name="review_name_${index}" value="">
+                </div>
+                <div class="form-group">
+                    <label>Rating (1-5)</label>
+                    <input type="number" name="review_rating_${index}" min="1" max="5" value="5">
+                </div>
+                <div class="form-group">
+                    <label>Review Text</label>
+                    <textarea name="review_text_${index}"></textarea>
+                </div>
+                <button type="button" class="remove-review-btn" onclick="this.parentElement.remove()">Remove Review</button>
+            `;
+            reviewsList.appendChild(reviewItem);
+        }
+
+        // Add pros field
+        function addProsField() {
+            const prosList = document.getElementById('prosList');
+            const index = prosList.children.length;
+            const prosItem = document.createElement('div');
+            prosItem.className = 'pros-cons-item';
+            prosItem.innerHTML = `
+                <input type="text" name="pro_${index}" value="" placeholder="Enter a positive point">
+                <button type="button" class="remove-item-btn" onclick="this.parentElement.remove()">✕</button>
+            `;
+            prosList.appendChild(prosItem);
+        }
+
+        // Add cons field
+        function addConsField() {
+            const consList = document.getElementById('consList');
+            const index = consList.children.length;
+            const consItem = document.createElement('div');
+            consItem.className = 'pros-cons-item';
+            consItem.innerHTML = `
+                <input type="text" name="con_${index}" value="" placeholder="Enter a negative point">
+                <button type="button" class="remove-item-btn" onclick="this.parentElement.remove()">✕</button>
+            `;
+            consList.appendChild(consItem);
+        }
+
+        // Save company
+        async function saveCompany(event, isEdit) {
+            event.preventDefault();
+            const form = event.target;
+            const formData = new FormData(form);
+            
+            const company = {
+                id: formData.get('id') || 'company-' + Date.now(),
+                name: formData.get('name'),
+                city: formData.get('city'),
+                phone: formData.get('phone'),
+                location: formData.get('location'),
+                rating: parseInt(formData.get('rating')),
+                reviewCount: parseInt(formData.get('reviewCount')),
+                hours: formData.get('hours'),
+                website: formData.get('website'),
+                badges: formData.get('badges') ? formData.get('badges').split(',').map(b => b.trim()) : [],
+                services: formData.get('services').split(',').map(s => s.trim()),
+                reviews: []
+            };
+
+            // Collect reviews
+            let reviewIndex = 0;
+            while (formData.has(`review_name_${reviewIndex}`)) {
+                const name = formData.get(`review_name_${reviewIndex}`);
+                const rating = formData.get(`review_rating_${reviewIndex}`);
+                const text = formData.get(`review_text_${reviewIndex}`);
+                
+                if (name && text) {
+                    company.reviews.push({
+                        name: name,
+                        rating: parseInt(rating),
+                        text: text
+                    });
+                }
+                reviewIndex++;
+            }
+
+            // Collect pros
+            company.pros = [];
+            let prosIndex = 0;
+            while (formData.has(`pro_${prosIndex}`)) {
+                const pro = formData.get(`pro_${prosIndex}`);
+                if (pro && pro.trim()) {
+                    company.pros.push(pro.trim());
+                }
+                prosIndex++;
+            }
+
+            // Collect cons
+            company.cons = [];
+            let consIndex = 0;
+            while (formData.has(`con_${consIndex}`)) {
+                const con = formData.get(`con_${consIndex}`);
+                if (con && con.trim()) {
+                    company.cons.push(con.trim());
+                }
+                consIndex++;
+            }
+
+            if (isEdit) {
+                const index = currentData.companies.findIndex(c => c.id === company.id);
+                currentData.companies[index] = company;
+            } else {
+                currentData.companies.push(company);
+            }
+
+            const saved = await saveData();
+            if (saved) {
+                showMessage('Company saved successfully!', 'success');
+                cancelForm(isEdit ? 'editCompany' : 'addCompany');
+                await loadData();
+                renderCities();
+                renderCompaniesContainers();
+                loadCompaniesAdmin();
+                populateCityFilters();
+            } else {
+                showMessage('Error saving company. Please try again.', 'error');
+            }
+        }
+
+        // Save city
+        async function saveCity(event, isEdit) {
+            event.preventDefault();
+            const form = event.target;
+            const formData = new FormData(form);
+            
+            const city = {
+                id: formData.get('id') || formData.get('slug'),
+                name: formData.get('name'),
+                slug: formData.get('slug')
+            };
+
+            if (isEdit) {
+                const index = currentData.cities.findIndex(c => c.id === city.id);
+                currentData.cities[index] = city;
+            } else {
+                currentData.cities.push(city);
+            }
+
+            const saved = await saveData();
+            if (saved) {
+                showMessage('City saved successfully!', 'success');
+                cancelForm(isEdit ? 'editCity' : 'addCity');
+                await loadData();
+                renderCities();
+                renderCompaniesContainers();
+                loadCitiesAdmin();
+                populateCityFilters();
+                populateFooterCities();
+            } else {
+                showMessage('Error saving city. Please try again.', 'error');
+            }
+        }
+
+        // Edit company
+        function editCompany(company) {
+            const form = document.getElementById('addCompanyForm');
+            form.style.display = 'block';
+            form.innerHTML = generateCompanyForm(company);
+            form.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Edit city
+        function editCity(city) {
+            const form = document.getElementById('addCityForm');
+            form.style.display = 'block';
+            form.innerHTML = generateCityForm(city);
+            form.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Delete company
+        async function deleteCompany(id) {
+            if (!confirm('Are you sure you want to delete this company?')) return;
+            
+            currentData.companies = currentData.companies.filter(c => c.id !== id);
+            const saved = await saveData();
+            
+            if (saved) {
+                showMessage('Company deleted successfully!', 'success');
+                await loadData();
+                renderCities();
+                renderCompaniesContainers();
+                loadCompaniesAdmin();
+            } else {
+                showMessage('Error deleting company. Please try again.', 'error');
+            }
+        }
+
+        // Delete city
+        async function deleteCity(id) {
+            const companyCount = currentData.companies.filter(c => c.city === id).length;
+            if (companyCount > 0) {
+                alert(`Cannot delete city. There are ${companyCount} companies in this city. Please delete or move them first.`);
+                return;
+            }
+            
+            if (!confirm('Are you sure you want to delete this city?')) return;
+            
+            currentData.cities = currentData.cities.filter(c => c.id !== id);
+            const saved = await saveData();
+            
+            if (saved) {
+                showMessage('City deleted successfully!', 'success');
+                await loadData();
+                renderCities();
+                renderCompaniesContainers();
+                loadCitiesAdmin();
+                populateCityFilters();
+                populateFooterCities();
+            } else {
+                showMessage('Error deleting city. Please try again.', 'error');
+            }
+        }
+
+        // Cancel form
+        function cancelForm(formType) {
+            if (formType === 'addCompany') {
+                document.getElementById('addCompanyForm').style.display = 'none';
+            } else if (formType === 'editCompany') {
+                document.getElementById('addCompanyForm').style.display = 'none';
+            } else if (formType === 'addCity') {
+                document.getElementById('addCityForm').style.display = 'none';
+            } else if (formType === 'editCity') {
+                document.getElementById('addCityForm').style.display = 'none';
+            }
+        }
+
+        // Show message
+        function showMessage(text, type) {
+            const messageDiv = document.getElementById('adminMessage');
+            messageDiv.className = type === 'success' ? 'success-message' : 'error-message';
+            messageDiv.textContent = text;
+            messageDiv.style.display = 'block';
+            
+            setTimeout(() => {
+                messageDiv.style.display = 'none';
+            }, 5000);
+        }
+
+        // Boot the site on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            initSite();
+        });
+    </script>
+</body>
+</html>

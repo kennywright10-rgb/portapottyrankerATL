@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porta Potty Rental FAQ | Atlanta Metro Porta Potty Reviews</title>
+    <meta name="description" content="Frequently asked questions about porta potty rentals in Atlanta Metro. Get answers about pricing, delivery, cleaning, event planning, and more.">
+    <meta name="keywords" content="porta potty FAQ, portable restroom questions, rental guide, Atlanta porta potty, event planning">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f7fa;
+        }
+
+        /* Header */
+        header {
+            background-color: #1a3a6b;
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: #dc143c;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #dc143c;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #2c5aa0 0%, #1a3a6b 100%);
+            color: white;
+            padding: 3rem 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 20px;
+        }
+
+        .faq-intro {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .faq-intro h2 {
+            color: #1a3a6b;
+            margin-bottom: 1rem;
+        }
+
+        /* FAQ Items */
+        .faq-list {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .faq-item {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: box-shadow 0.3s;
+        }
+
+        .faq-item:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+
+        .faq-question {
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            border: none;
+            width: 100%;
+            text-align: left;
+            font-size: 1.1rem;
+            color: #1a3a6b;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .faq-question:hover {
+            background: #f8f9fa;
+        }
+
+        .faq-question .icon {
+            font-size: 1.5rem;
+            color: #2c5aa0;
+            transition: transform 0.3s;
+        }
+
+        .faq-item.active .faq-question .icon {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            padding: 0 1.5rem;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 1000px;
+            padding: 0 1.5rem 1.5rem;
+        }
+
+        .faq-answer p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .faq-answer ul {
+            margin-bottom: 1rem;
+            padding-left: 2rem;
+        }
+
+        .faq-answer li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Category Filters */
+        .category-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            justify-content: center;
+        }
+
+        .category-btn {
+            padding: 0.8rem 1.5rem;
+            background: white;
+            border: 2px solid #2c5aa0;
+            border-radius: 25px;
+            color: #2c5aa0;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+
+        .category-btn:hover, .category-btn.active {
+            background: #2c5aa0;
+            color: white;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a3a6b;
+            color: white;
+            padding: 3rem 20px 1rem;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #2c5aa0;
+            color: #ccc;
+        }
+
+        .admin-link {
+            color: #1a3a6b;
+            font-size: 0.7rem;
+            text-decoration: none;
+            opacity: 0.3;
+        }
+
+        /* Admin Panel Styles */
+        .admin-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 1000;
+            overflow-y: auto;
+        }
+
+        .admin-modal.active {
+            display: block;
+        }
+
+        .admin-content {
+            max-width: 1000px;
+            margin: 2rem auto;
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+        }
+
+        .admin-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #1a3a6b;
+        }
+
+        .admin-header h2 {
+            color: #1a3a6b;
+        }
+
+        .close-admin {
+            background: #dc143c;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .add-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 0.8rem 2rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 2rem;
+        }
+
+        .add-btn:hover {
+            background: #218838;
+        }
+
+        .faq-list-admin {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .faq-item-admin {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #2c5aa0;
+        }
+
+        .faq-item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            gap: 1rem;
+        }
+
+        .faq-item-header h4 {
+            color: #1a3a6b;
+            flex: 1;
+        }
+
+        .admin-btn-group {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .edit-btn, .delete-btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .edit-btn {
+            background: #2c5aa0;
+            color: white;
+        }
+
+        .delete-btn {
+            background: #dc143c;
+            color: white;
+        }
+
+        /* Form Styles */
+        .edit-form {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            border: 2px solid #2c5aa0;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #1a3a6b;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.8rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+
+        .form-group textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #2c5aa0;
+        }
+
+        .save-btn, .cancel-btn {
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-right: 1rem;
+        }
+
+        .save-btn {
+            background: #28a745;
+            color: white;
+        }
+
+        .cancel-btn {
+            background: #6c757d;
+            color: white;
+        }
+
+        .login-form {
+            max-width: 400px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .login-form h3 {
+            color: #1a3a6b;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .login-btn {
+            width: 100%;
+            background: #2c5aa0;
+            color: white;
+            border: none;
+            padding: 0.8rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 0.8rem;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 0.8rem;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .category-filters {
+                justify-content: flex-start;
+            }
+
+            .faq-question {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="/index.html" class="logo">Atlanta Metro <span>Porta Potty Reviews</span></a>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Frequently Asked Questions</h1>
+        <p>Get answers to your porta potty rental questions</p>
+    </section>
+
+    <div class="container">
+        <div class="faq-intro">
+            <h2>Everything You Need to Know About Porta Potty Rentals</h2>
+            <p>Planning an event or managing a construction site? We've compiled the most common questions about portable restroom rentals in the Atlanta Metro area. Can't find your answer? Contact one of our featured companies for personalized assistance.</p>
+        </div>
+
+        <div class="category-filters" id="categoryFilters">
+            <button class="category-btn active" data-category="all">All Questions</button>
+        </div>
+
+        <div class="faq-list" id="faqList">
+            <!-- FAQ items will be loaded here -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Atlanta Metro Porta Potty Reviews helps you find the best portable restroom rentals for your event or construction site.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Atlanta Metro Porta Potty Reviews<br>(678) 456-3488<br><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fb92959d94bb9a8f97969e8f89948b8bd5989496">[email&#160;protected]</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Atlanta Metro Porta Potty Reviews. All rights reserved.</p>
+            <a href="#" class="admin-link" onclick="openAdmin(); return false;">•</a>
+        </div>
+    </footer>
+
+    <!-- Admin Panel Modal -->
+    <div id="adminModal" class="admin-modal">
+        <div class="admin-content">
+            <div id="loginSection" class="login-form">
+                <h3>Admin Login</h3>
+                <div id="loginError" class="error-message" style="display: none;"></div>
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" id="adminUsername" placeholder="Enter username">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="adminPassword" placeholder="Enter password">
+                </div>
+                <button class="login-btn" onclick="adminLogin()">Login</button>
+                <button class="cancel-btn" onclick="closeAdmin()" style="width: 100%; margin-top: 0.5rem;">Cancel</button>
+            </div>
+
+            <div id="adminPanel" style="display: none;">
+                <div class="admin-header">
+                    <h2>FAQ Admin Panel</h2>
+                    <button class="close-admin" onclick="closeAdmin()">Close</button>
+                </div>
+
+                <div id="adminMessage" style="display: none;"></div>
+
+                <button class="add-btn" onclick="showAddFAQForm()">+ Add New FAQ</button>
+
+                <div id="addFAQForm" style="display: none;"></div>
+
+                <div id="faqListAdmin" class="faq-list-admin">
+                    <!-- FAQ items will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        let faqData = [];
+        let isLoggedIn = false;
+        let currentCategory = 'all';
+
+        // Initialize
+        async function initFAQ() {
+            await loadFAQData();
+            renderFAQ();
+            renderCategories();
+        }
+
+        // Load FAQ data from API
+        async function loadFAQData() {
+            try {
+                const response = await fetch('/api/faq');
+                if (response.ok) {
+                    const data = await response.json();
+                    if (data && data.faqs && data.faqs.length > 0) {
+                        faqData = data.faqs;
+                    } else {
+                        faqData = getDefaultFAQData();
+                    }
+                } else {
+                    faqData = getDefaultFAQData();
+                }
+            } catch (error) {
+                faqData = getDefaultFAQData();
+            }
+        }
+
+        // Save FAQ data
+        async function saveFAQData() {
+            try {
+                const response = await fetch('/api/faq', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ faqs: faqData })
+                });
+                
+                if (!response.ok) {
+                    throw new Error('Failed to save data');
+                }
+                
+                return true;
+            } catch (error) {
+                console.error('Error saving FAQ data:', error);
+                return false;
+            }
+        }
+
+        // Default FAQ data
+        function getDefaultFAQData() {
+            return [
+                {
+                    id: 'faq-1',
+                    question: 'How many porta potties do I need for my event?',
+                    answer: '<p>The number of porta potties needed depends on several factors including guest count, event duration, and whether alcohol is served.</p><p><strong>General Guidelines:</strong></p><ul><li>1 porta potty per 50 guests for events up to 4 hours</li><li>1 porta potty per 35-40 guests if alcohol is served</li><li>At least 1 ADA-compliant unit for events with 100+ guests</li><li>Add more units for events longer than 4 hours</li></ul><p>Most rental companies offer free consultations to help determine your exact needs.</p>',
+                    category: 'Planning',
+                    order: 1
+                },
+                {
+                    id: 'faq-2',
+                    question: 'How much does it cost to rent a porta potty in Atlanta?',
+                    answer: '<p>Porta potty rental costs in the Atlanta Metro area vary based on several factors:</p><p><strong>Standard Unit:</strong> $80-$175 per day, $100-$200 per week, $150-$300 per month</p><p><strong>Luxury Trailer:</strong> $1,500-$3,500 for a weekend rental</p><p><strong>ADA-Compliant Unit:</strong> $125-$225 per day</p><p><strong>Hand Washing Station:</strong> $155 per week</p><p>Prices include delivery, pickup, and standard servicing. Additional fees may apply for same-day delivery, extended distances, or extra servicing.</p>',
+                    category: 'Pricing',
+                    order: 2
+                },
+                {
+                    id: 'faq-3',
+                    question: 'How far in advance should I book a porta potty rental?',
+                    answer: '<p>Booking timelines depend on your event type and season:</p><ul><li><strong>Standard Events:</strong> 1-2 weeks in advance</li><li><strong>Large Events/Weddings:</strong> 2-3 months in advance</li><li><strong>Peak Season (May-October):</strong> 3-4 months in advance for luxury trailers</li><li><strong>Construction Sites:</strong> 1 week minimum</li><li><strong>Emergency/Last Minute:</strong> Many companies offer same-day or next-day service (additional fees may apply)</li></ul><p>During peak wedding season and festival months, popular dates book quickly, so earlier is always better.</p>',
+                    category: 'Planning',
+                    order: 3
+                },
+                {
+                    id: 'faq-4',
+                    question: 'How often are porta potties cleaned and serviced?',
+                    answer: '<p>Standard servicing schedule:</p><ul><li><strong>One-Day Events:</strong> Pre-stocked before event, cleaned after pickup</li><li><strong>Weekend Events:</strong> Serviced before and after</li><li><strong>Weekly Rentals:</strong> Serviced once per week</li><li><strong>Monthly Rentals:</strong> Serviced weekly or bi-weekly</li><li><strong>High-Traffic Events:</strong> Daily or even multiple times per day</li></ul><p>Servicing includes pumping waste, refilling water, restocking supplies (toilet paper, hand sanitizer), and sanitizing the unit. Additional servicing visits can be arranged for an extra fee.</p>',
+                    category: 'Maintenance',
+                    order: 4
+                },
+                {
+                    id: 'faq-5',
+                    question: 'What is included in a porta potty rental?',
+                    answer: '<p>Standard rental includes:</p><ul><li>Delivery and setup at your specified location</li><li>The porta potty unit itself (clean and sanitized)</li><li>Toilet paper (2+ rolls)</li><li>Hand sanitizer dispenser with sanitizer</li><li>Urinal (in most standard units)</li><li>Ventilation system</li><li>Door lock with occupancy indicator</li><li>Weekly servicing for long-term rentals</li><li>Pickup and removal after rental period</li></ul><p><strong>Optional Add-ons:</strong></p><ul><li>Hand washing stations</li><li>Luxury trailer upgrades</li><li>Extra servicing visits</li><li>Lighting (solar or battery powered)</li><li>Air conditioning/heating</li><li>Attendant service</li></ul>',
+                    category: 'Services',
+                    order: 5
+                },
+                {
+                    id: 'faq-6',
+                    question: 'Do you need a permit for a porta potty in Atlanta?',
+                    answer: '<p>Permit requirements vary by location within the Atlanta Metro area:</p><p><strong>Generally NOT Required For:</strong></p><ul><li>Private property (your yard, private venue)</li><li>Short-term events (1-2 days)</li><li>Construction sites (already permitted for construction)</li></ul><p><strong>May Require Permit For:</strong></p><ul><li>Public property or parks</li><li>Street placement or right-of-way</li><li>Large public events</li><li>Long-term placement in certain municipalities</li></ul><p>Check with your local city hall or HOA before your event. Most rental companies can advise on local requirements. Popular areas include:</p><ul><li>City of Atlanta: Contact Special Events Permits</li><li>Fulton County Parks: Requires permit application</li><li>Gwinnett County: Check with Parks & Recreation</li><li>Cobb County: Varies by city within county</li></ul>',
+                    category: 'Regulations',
+                    order: 6
+                },
+                {
+                    id: 'faq-7',
+                    question: 'What are OSHA requirements for construction site porta potties?',
+                    answer: '<p>OSHA Standard 1926.51 requires construction sites to provide:</p><ul><li><strong>1 toilet facility per 20 employees</strong></li><li>Facilities within 5 minutes of work areas (or within 200 feet)</li><li>Hand washing facilities with soap and clean water</li><li>Toilets maintained in clean and sanitary condition</li><li>Toilet paper at each facility</li><li>Individual hand towels or air blowers</li></ul><p><strong>Best Practices:</strong></p><ul><li>Weekly servicing minimum (more for 20+ workers)</li><li>ADA-accessible units when required</li><li>Combination units (toilet + hand wash) for easy compliance</li><li>Posted servicing schedule</li><li>Emergency service contact information</li></ul><p>Non-compliance can result in OSHA citations and fines from $1,000 to $13,000+ per violation.</p>',
+                    category: 'Regulations',
+                    order: 7
+                },
+                {
+                    id: 'faq-8',
+                    question: 'What\'s the difference between a standard porta potty and a luxury restroom trailer?',
+                    answer: '<p><strong>Standard Porta Potty:</strong></p><ul><li>Single unit, plastic construction</li><li>Basic toilet and urinal</li><li>Hand sanitizer dispenser</li><li>No running water</li><li>No climate control</li><li>Cost: $80-$175 per day</li><li>Best for: Construction sites, casual outdoor events, festivals</li></ul><p><strong>Luxury Restroom Trailer:</strong></p><ul><li>Multi-stall trailer (2-25 stalls)</li><li>Real flushing toilets and sinks</li><li>Running water and mirrors</li><li>Air conditioning and heating</li><li>Interior lighting and music</li><li>Elegant interior finishes</li><li>Cost: $1,500-$3,500 per weekend</li><li>Best for: Weddings, corporate events, VIP areas, upscale gatherings</li></ul><p>Luxury trailers provide a much more comfortable experience and are worth the investment for events where guest comfort is a priority.</p>',
+                    category: 'Types',
+                    order: 8
+                },
+                {
+                    id: 'faq-9',
+                    question: 'Where should porta potties be placed at my event?',
+                    answer: '<p><strong>Ideal Placement Guidelines:</strong></p><ul><li><strong>Distance:</strong> Within 200 feet of main event area but not so close you can smell them</li><li><strong>Accessibility:</strong> On level ground, easily accessible by all guests</li><li><strong>Lighting:</strong> Well-lit area or add lighting for evening events</li><li><strong>Traffic Flow:</strong> Near high-traffic areas (bar, dance floor) but not blocking pathways</li><li><strong>Away From:</strong> Food service areas, dining areas, stages/speakers</li><li><strong>Delivery Access:</strong> Within 35 feet of where truck can park</li><li><strong>Gate Width:</strong> Minimum 48 inches if going through a gate</li></ul><p><strong>Additional Tips:</strong></p><ul><li>Add directional signage for easy finding</li><li>Separate men\'s and women\'s for larger events</li><li>Place ADA units on accessible routes</li><li>Consider wind direction (odor management)</li><li>Ensure units won\'t be visible in event photos if possible</li></ul>',
+                    category: 'Planning',
+                    order: 9
+                },
+                {
+                    id: 'faq-10',
+                    question: 'Can porta potties be used in winter weather in Atlanta?',
+                    answer: '<p>Yes! Porta potties can be used year-round in Atlanta, though winter requires some special considerations:</p><p><strong>Cold Weather Solutions:</strong></p><ul><li><strong>Heated Units:</strong> Available with built-in heaters for extreme cold</li><li><strong>Anti-Freeze:</strong> Added to holding tanks to prevent freezing</li><li><strong>Insulated Units:</strong> Better temperature retention</li><li><strong>Regular Servicing:</strong> Prevents water line freezing</li></ul><p><strong>Atlanta\'s Mild Winters:</strong></p><p>Atlanta rarely experiences prolonged freezing temperatures, so standard units work fine for most winter events. However, if temperatures are expected to drop below 32°F for extended periods:</p><ul><li>Request heated units for multi-day events</li><li>Ensure anti-freeze treatment is included</li><li>Schedule delivery closer to event time</li><li>Consider backup indoor facilities if available</li></ul><p>Most Atlanta porta potty companies are experienced with winter rentals and will recommend appropriate solutions based on your specific dates and forecast.</p>',
+                    category: 'Seasonal',
+                    order: 10
+                }
+            ];
+        }
+
+        // Render FAQ items
+        function renderFAQ() {
+            const list = document.getElementById('faqList');
+            const filtered = currentCategory === 'all' ? 
+                faqData : 
+                faqData.filter(faq => faq.category === currentCategory);
+
+            const sorted = filtered.sort((a, b) => a.order - b.order);
+
+            list.innerHTML = sorted.map(faq => `
+                <div class="faq-item" data-category="${faq.category}">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>${faq.question}</span>
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        ${faq.answer}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Render category filters
+        function renderCategories() {
+            const categories = ['all', ...new Set(faqData.map(faq => faq.category))];
+            const filters = document.getElementById('categoryFilters');
+            
+            filters.innerHTML = categories.map(cat => `
+                <button class="category-btn ${cat === currentCategory ? 'active' : ''}" 
+                        data-category="${cat}" 
+                        onclick="filterCategory('${cat}')">
+                    ${cat === 'all' ? 'All Questions' : cat}
+                </button>
+            `).join('');
+        }
+
+        // Toggle FAQ item
+        function toggleFAQ(button) {
+            const item = button.closest('.faq-item');
+            const wasActive = item.classList.contains('active');
+            
+            // Close all items
+            document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+            
+            // Open clicked item if it wasn't active
+            if (!wasActive) {
+                item.classList.add('active');
+            }
+        }
+
+        // Filter by category
+        function filterCategory(category) {
+            currentCategory = category;
+            renderFAQ();
+            renderCategories();
+        }
+
+        // Admin functions
+        function openAdmin() {
+            document.getElementById('adminModal').classList.add('active');
+            if (isLoggedIn) {
+                document.getElementById('loginSection').style.display = 'none';
+                document.getElementById('adminPanel').style.display = 'block';
+                loadFAQAdmin();
+            }
+        }
+
+        function closeAdmin() {
+            document.getElementById('adminModal').classList.remove('active');
+            document.getElementById('loginError').style.display = 'none';
+            document.getElementById('adminUsername').value = '';
+            document.getElementById('adminPassword').value = '';
+        }
+
+        function adminLogin() {
+            const username = document.getElementById('adminUsername').value;
+            const password = document.getElementById('adminPassword').value;
+            
+            if (username === 'admin' && password === 'patriot2026') {
+                isLoggedIn = true;
+                document.getElementById('loginSection').style.display = 'none';
+                document.getElementById('adminPanel').style.display = 'block';
+                document.getElementById('loginError').style.display = 'none';
+                loadFAQAdmin();
+            } else {
+                document.getElementById('loginError').textContent = 'Invalid username or password';
+                document.getElementById('loginError').style.display = 'block';
+            }
+        }
+
+        // Load FAQ in admin
+        function loadFAQAdmin() {
+            const list = document.getElementById('faqListAdmin');
+            const sorted = [...faqData].sort((a, b) => a.order - b.order);
+            
+            list.innerHTML = sorted.map(faq => `
+                <div class="faq-item-admin">
+                    <div class="faq-item-header">
+                        <div style="flex: 1;">
+                            <h4>${faq.question}</h4>
+                            <p style="color: #666; font-size: 0.9rem; margin-top: 0.5rem;">Category: ${faq.category} | Order: ${faq.order}</p>
+                        </div>
+                        <div class="admin-btn-group">
+                            <button class="edit-btn" onclick='editFAQ(${JSON.stringify(faq).replace(/'/g, "&#39;")})'>Edit</button>
+                            <button class="delete-btn" onclick="deleteFAQ('${faq.id}')">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Show add FAQ form
+        function showAddFAQForm() {
+            const form = document.getElementById('addFAQForm');
+            form.style.display = 'block';
+            form.innerHTML = generateFAQForm(null);
+            form.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Generate FAQ form
+        function generateFAQForm(faq) {
+            const isEdit = faq !== null;
+            const categories = [...new Set(faqData.map(f => f.category))];
+            
+            return `
+                <div class="edit-form">
+                    <h3 style="color: #1a3a6b; margin-bottom: 1.5rem;">${isEdit ? 'Edit' : 'Add New'} FAQ</h3>
+                    <form onsubmit="saveFAQ(event, ${isEdit})">
+                        <input type="hidden" name="id" value="${faq?.id || ''}">
+                        
+                        <div class="form-group">
+                            <label>Question *</label>
+                            <input type="text" name="question" value="${faq?.question || ''}" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Answer * (Use HTML: &lt;p&gt;, &lt;ul&gt;, &lt;li&gt;, &lt;strong&gt;, etc.)</label>
+                            <textarea name="answer" required>${faq?.answer || ''}</textarea>
+                            <small style="color: #666; display: block; margin-top: 0.5rem;">
+                                HTML Guide: &lt;p&gt;paragraph&lt;/p&gt;, &lt;ul&gt;&lt;li&gt;list item&lt;/li&gt;&lt;/ul&gt;, &lt;strong&gt;bold&lt;/strong&gt;
+                            </small>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Category *</label>
+                            <input type="text" name="category" value="${faq?.category || ''}" required list="categories" placeholder="e.g., Planning, Pricing, Services">
+                            <datalist id="categories">
+                                ${categories.map(cat => `<option value="${cat}">`).join('')}
+                            </datalist>
+                            <small style="color: #666; display: block; margin-top: 0.5rem;">
+                                Enter a new category or select an existing one
+                            </small>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Display Order *</label>
+                            <input type="number" name="order" value="${faq?.order || (faqData.length + 1)}" required min="1">
+                            <small style="color: #666; display: block; margin-top: 0.5rem;">
+                                Lower numbers appear first (1, 2, 3...)
+                            </small>
+                        </div>
+
+                        <div style="margin-top: 2rem;">
+                            <button type="submit" class="save-btn">Save FAQ</button>
+                            <button type="button" class="cancel-btn" onclick="cancelFAQForm()">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            `;
+        }
+
+        // Save FAQ
+        async function saveFAQ(event, isEdit) {
+            event.preventDefault();
+            const form = event.target;
+            const formData = new FormData(form);
+            
+            const faq = {
+                id: formData.get('id') || 'faq-' + Date.now(),
+                question: formData.get('question'),
+                answer: formData.get('answer'),
+                category: formData.get('category'),
+                order: parseInt(formData.get('order'))
+            };
+
+            if (isEdit) {
+                const index = faqData.findIndex(f => f.id === faq.id);
+                faqData[index] = faq;
+            } else {
+                faqData.push(faq);
+            }
+
+            const saved = await saveFAQData();
+            if (saved) {
+                showMessage('FAQ saved successfully!', 'success');
+                cancelFAQForm();
+                await loadFAQData();
+                renderFAQ();
+                renderCategories();
+                loadFAQAdmin();
+            } else {
+                showMessage('Error saving FAQ. Please try again.', 'error');
+            }
+        }
+
+        // Edit FAQ
+        function editFAQ(faq) {
+            const form = document.getElementById('addFAQForm');
+            form.style.display = 'block';
+            form.innerHTML = generateFAQForm(faq);
+            form.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Delete FAQ
+        async function deleteFAQ(id) {
+            if (!confirm('Are you sure you want to delete this FAQ?')) return;
+            
+            faqData = faqData.filter(f => f.id !== id);
+            const saved = await saveFAQData();
+            
+            if (saved) {
+                showMessage('FAQ deleted successfully!', 'success');
+                await loadFAQData();
+                renderFAQ();
+                renderCategories();
+                loadFAQAdmin();
+            } else {
+                showMessage('Error deleting FAQ. Please try again.', 'error');
+            }
+        }
+
+        // Cancel form
+        function cancelFAQForm() {
+            document.getElementById('addFAQForm').style.display = 'none';
+        }
+
+        // Show message
+        function showMessage(text, type) {
+            const messageDiv = document.getElementById('adminMessage');
+            messageDiv.className = type === 'success' ? 'success-message' : 'error-message';
+            messageDiv.textContent = text;
+            messageDiv.style.display = 'block';
+            
+            setTimeout(() => {
+                messageDiv.style.display = 'none';
+            }, 5000);
+        }
+
+        // Boot the FAQ page
+        document.addEventListener('DOMContentLoaded', initFAQ);
+    </script>
+</body>
+</html>
