@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Homepage - Highest Priority -->
     <url>
-        <loc>https://atlanta-porta-potty-reviews.vercel.app/</loc>
+        <loc>https://portapottyranker.com/</loc>
         <lastmod>2026-03-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -10,49 +10,49 @@
     
     <!-- City Landing Pages - Very High Priority for SEO -->
     <url>
-        <loc>https://atlanta-porta-potty-reviews.vercel.app/atlanta</loc>
+        <loc>https://portapottyranker.com/atlanta</loc>
         <lastmod>2026-03-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://atlanta-porta-potty-reviews.vercel.app/alpharetta</loc>
+        <loc>https://portapottyranker.com/alpharetta</loc>
         <lastmod>2026-03-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://atlanta-porta-potty-reviews.vercel.app/marietta</loc>
+        <loc>https://portapottyranker.com/marietta</loc>
         <lastmod>2026-03-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://atlanta-porta-potty-reviews.vercel.app/roswell</loc>
+        <loc>https://portapottyranker.com/roswell</loc>
         <lastmod>2026-03-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://atlanta-porta-potty-reviews.vercel.app/sandy-springs</loc>
+        <loc>https://portapottyranker.com/sandy-springs</loc>
         <lastmod>2026-03-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://atlanta-porta-potty-reviews.vercel.app/johns-creek</loc>
+        <loc>https://portapottyranker.com/johns-creek</loc>
         <lastmod>2026-03-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://atlanta-porta-potty-reviews.vercel.app/duluth</loc>
+        <loc>https://portapottyranker.com/duluth</loc>
         <lastmod>2026-03-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://atlanta-porta-potty-reviews.vercel.app/lawrenceville</loc>
+        <loc>https://portapottyranker.com/lawrenceville</loc>
         <lastmod>2026-03-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -60,19 +60,19 @@
     
     <!-- Support Pages -->
     <url>
-        <loc>https://atlanta-porta-potty-reviews.vercel.app/blog</loc>
+        <loc>https://portapottyranker.com/blog</loc>
         <lastmod>2026-03-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://atlanta-porta-potty-reviews.vercel.app/faq</loc>
+        <loc>https://portapottyranker.com/faq</loc>
         <lastmod>2026-03-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://atlanta-porta-potty-reviews.vercel.app/about</loc>
+        <loc>https://portapottyranker.com/about</loc>
         <lastmod>2026-03-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
