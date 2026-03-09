@@ -3,7 +3,7 @@
     <!-- Homepage - Highest Priority -->
     <url>
         <loc>https://portapottyranker.com/</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -58,22 +58,58 @@
         <priority>0.9</priority>
     </url>
     
-    <!-- Support Pages -->
+    <!-- Blog Index -->
     <url>
         <loc>https://portapottyranker.com/blog</loc>
+        <lastmod>2026-03-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Blog Articles - High Value Content -->
+    <url>
+        <loc>https://portapottyranker.com/blog/how-much-does-porta-potty-rental-cost-atlanta</loc>
         <lastmod>2026-03-08</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://portapottyranker.com/blog/how-many-porta-potties-do-i-need</loc>
+        <lastmod>2026-03-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://portapottyranker.com/blog/ada-compliant-porta-potty-requirements</loc>
+        <lastmod>2026-03-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://portapottyranker.com/blog/same-day-porta-potty-delivery-atlanta</loc>
+        <lastmod>2026-03-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://portapottyranker.com/blog/luxury-restroom-trailers-vs-porta-potties</loc>
+        <lastmod>2026-03-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- FAQ Page - High Priority -->
     <url>
         <loc>https://portapottyranker.com/faq</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.8</priority>
     </url>
+    
+    <!-- About Page (if exists) -->
     <url>
         <loc>https://portapottyranker.com/about</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
