@@ -11,6 +11,12 @@
     { "src": "/johns-creek", "dest": "/cities/johns-creek.html" },
     { "src": "/duluth", "dest": "/cities/duluth.html" },
     { "src": "/lawrenceville", "dest": "/cities/lawrenceville.html" },
+    { "src": "/blog/how-much-does-porta-potty-rental-cost-atlanta", "dest": "/blog/how-much-does-porta-potty-rental-cost-atlanta.html" },
+    { "src": "/blog/how-many-porta-potties-do-i-need", "dest": "/blog/how-many-porta-potties-do-i-need.html" },
+    { "src": "/blog/ada-compliant-porta-potty-requirements", "dest": "/blog/ada-compliant-porta-potty-requirements.html" },
+    { "src": "/blog/same-day-porta-potty-delivery-atlanta", "dest": "/blog/same-day-porta-potty-delivery-atlanta.html" },
+    { "src": "/blog/luxury-restroom-trailers-vs-porta-potties", "dest": "/blog/luxury-restroom-trailers-vs-porta-potties.html" },
+    { "src": "/blog", "dest": "/blog/index.html" },
     { "src": "/api/(.*)", "dest": "/api/$1.js" },
     { "src": "/(.*)\\.html", "dest": "/$1.html" },
     { "src": "/", "dest": "/index.html" }
