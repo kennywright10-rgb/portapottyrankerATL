@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Porta Potty Rental Blog | Expert Guides for Atlanta Metro Area</title>
+    <meta name="description" content="Expert guides on porta potty rentals in Atlanta. Learn about pricing, OSHA requirements, ADA compliance, same-day delivery, and choosing the right units for your event or construction site.">
+    <meta name="keywords" content="porta potty blog, atlanta porta potty guide, portable restroom advice, rental tips">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://portapottyranker.com/blog">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        header {
+            background: #1a3a6b;
+            color: white;
+            padding: 1rem 0;
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 2rem;
+        }
+        
+        nav a:hover {
+            color: #dc143c;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #2c5aa0 0%, #1a3a6b 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 700px;
+            margin: 0 auto;
+            opacity: 0.95;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        
+        .category-filter {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .filter-btn {
+            padding: 10px 25px;
+            border: 2px solid #2c5aa0;
+            background: white;
+            color: #2c5aa0;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+        
+        .filter-btn:hover, .filter-btn.active {
+            background: #2c5aa0;
+            color: white;
+        }
+        
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        
+        .article-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: #333;
+            display: block;
+        }
+        
+        .article-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        
+        .article-category {
+            display: inline-block;
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-bottom: 15px;
+        }
+        
+        .article-card h2 {
+            color: #1a3a6b;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+        
+        .article-excerpt {
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.7;
+        }
+        
+        .article-meta {
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        .read-more {
+            color: #dc143c;
+            font-weight: bold;
+            margin-top: 15px;
+            display: inline-block;
+        }
+        
+        .featured-article {
+            grid-column: 1 / -1;
+            background: linear-gradient(135deg, #2c5aa0 0%, #1a3a6b 100%);
+            color: white;
+            padding: 50px;
+        }
+        
+        .featured-article h2 {
+            color: white;
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+        }
+        
+        .featured-article .article-excerpt {
+            color: rgba(255,255,255,0.9);
+            font-size: 1.1rem;
+        }
+        
+        .featured-article .article-category {
+            background: rgba(255,255,255,0.2);
+            color: white;
+        }
+        
+        .featured-article .read-more {
+            background: #dc143c;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+        
+        footer {
+            background: #1a3a6b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 80px;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .featured-article {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="/" class="logo">🚽 Porta Potty Ranker</a>
+            <nav>
+                <a href="/blog">Blog</a>
+                <a href="/">Companies</a>
+                <a href="/faq">FAQ</a>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <h1>📚 Porta Potty Rental Guides</h1>
+        <p>Expert advice on pricing, planning, regulations, and choosing the right portable restrooms for your Atlanta Metro event or construction site.</p>
+    </section>
+    
+    <div class="container">
+        <div class="category-filter">
+            <button class="filter-btn active" data-category="all">All Articles</button>
+            <button class="filter-btn" data-category="Pricing">Pricing</button>
+            <button class="filter-btn" data-category="Planning">Planning</button>
+            <button class="filter-btn" data-category="Regulations">Regulations</button>
+            <button class="filter-btn" data-category="Service">Service</button>
+            <button class="filter-btn" data-category="Equipment">Equipment</button>
+        </div>
+        
+        <div class="articles-grid">
+            <!-- Featured Article -->
+            <a href="/blog/how-much-does-porta-potty-rental-cost-atlanta" class="article-card featured-article" data-category="Pricing">
+                <span class="article-category">Pricing</span>
+                <h2>How Much Does Porta Potty Rental Cost in Atlanta? 2026 Pricing Guide</h2>
+                <p class="article-excerpt">Complete breakdown of porta potty rental costs in Metro Atlanta. Standard units $159-$299/month, luxury trailers $1,200-$3,500/weekend. Includes delivery fees, service costs, and money-saving tips.</p>
+                <span class="read-more">Read Full Guide →</span>
+            </a>
+            
+            <!-- Regular Articles -->
+            <a href="/blog/how-many-porta-potties-do-i-need" class="article-card" data-category="Planning">
+                <span class="article-category">Planning</span>
+                <h2>How Many Porta Potties Do I Need?</h2>
+                <p class="article-excerpt">OSHA requires 1 toilet per 20 construction workers. Events need 1 per 50 guests for 4 hours. Complete calculator for construction sites, weddings, festivals, and outdoor events.</p>
+                <div class="article-meta">Updated March 2026</div>
+                <span class="read-more">Read More →</span>
+            </a>
+            
+            <a href="/blog/ada-compliant-porta-potty-requirements" class="article-card" data-category="Regulations">
+                <span class="article-category">Regulations</span>
+                <h2>ADA Compliant Porta Potty Requirements in Georgia</h2>
+                <p class="article-excerpt">Federal ADA law requires accessible porta potties for events and construction sites. Learn spacing, dimensions, and Atlanta rental costs. Avoid $4,000-$75,000 violations.</p>
+                <div class="article-meta">Updated March 2026</div>
+                <span class="read-more">Read More →</span>
+            </a>
+            
+            <a href="/blog/same-day-porta-potty-delivery-atlanta" class="article-card" data-category="Service">
+                <span class="article-category">Service</span>
+                <h2>Same-Day Porta Potty Delivery in Atlanta</h2>
+                <p class="article-excerpt">Need a porta potty today? 7 Atlanta companies offer same-day delivery when called before 11 AM. Costs $50-$150 rush fee. Emergency rentals available 24/7 from select providers.</p>
+                <div class="article-meta">Updated March 2026</div>
+                <span class="read-more">Read More →</span>
+            </a>
+            
+            <a href="/blog/luxury-restroom-trailers-vs-porta-potties" class="article-card" data-category="Equipment">
+                <span class="article-category">Equipment</span>
+                <h2>Luxury Restroom Trailers vs Porta Potties</h2>
+                <p class="article-excerpt">Luxury restroom trailers cost $1,200-$3,500/weekend vs $150-$200 for standard porta potties. Compare features, guest experience, and when each makes sense for Atlanta weddings and events.</p>
+                <div class="article-meta">Updated March 2026</div>
+                <span class="read-more">Read More →</span>
+            </a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2026 Porta Potty Ranker | Independent Review Platform</p>
+        <p><a href="/" style="color: white;">View All Companies</a> | <a href="/blog" style="color: white;">Blog</a></p>
+    </footer>
+    
+    <script>
+        // Category filtering
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const articles = document.querySelectorAll('.article-card');
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Update active button
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                
+                const category = button.dataset.category;
+                
+                // Filter articles
+                articles.forEach(article => {
+                    if (category === 'all' || article.dataset.category === category) {
+                        article.style.display = 'block';
+                    } else {
+                        article.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
