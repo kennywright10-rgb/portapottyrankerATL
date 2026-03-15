@@ -1762,6 +1762,20 @@
         // City filter
         if (currentCity !== 'all') {
             companies = companies.filter(c => c.city === currentCity);
+        } else {
+            // When showing all cities, deduplicate by company name.
+            // Keep the Atlanta entry if one exists, otherwise the first occurrence.
+            const seen = new Map();
+            for (const c of companies) {
+                const key = c.name.toLowerCase().trim();
+                if (!seen.has(key)) {
+                    seen.set(key, c);
+                } else if (c.city === 'atlanta') {
+                    // Prefer the Atlanta listing as the canonical one
+                    seen.set(key, c);
+                }
+            }
+            companies = Array.from(seen.values());
         }
 
         // Search filter
@@ -1791,7 +1805,12 @@
 
         // Update count
         const countEl = document.getElementById('resultsCount');
-        if (countEl) countEl.textContent = `${companies.length} compan${companies.length === 1 ? 'y' : 'ies'}`;
+        if (countEl) {
+            const label = currentCity === 'all'
+                ? `${companies.length} unique companies`
+                : `${companies.length} compan${companies.length === 1 ? 'y' : 'ies'} in ${currentCity.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}`;
+            countEl.textContent = label;
+        }
 
         const grid = document.getElementById('companiesGrid');
         if (!companies.length) {
